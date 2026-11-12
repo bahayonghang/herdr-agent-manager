@@ -1,0 +1,9 @@
+{
+  "place": "none",
+  "title": "Agent Manager Menu",
+  "focusable": true,
+  "overlay": {
+    "width": 370,
+    "height": 570
+  }
+}

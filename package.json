@@ -5,9 +5,7 @@
   "type": "module",
   "description": "Native agent launcher and configuration manager for Herdr",
   "license": "MIT",
-  "engines": {
-    "node": ">=20.6"
-  },
+  "engines": { "node": ">=20.6" },
   "scripts": {
     "build": "node scripts/build.mjs",
     "test": "node --test",
