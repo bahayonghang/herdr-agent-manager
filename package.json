@@ -1,0 +1,18 @@
+{
+  "name": "herdr-agent-manager",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Native agent launcher and configuration manager for Herdr",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "check": "node scripts/build.mjs --check && node --test",
+    "install:mod": "node scripts/install.mjs",
+    "uninstall:mod": "node scripts/install.mjs --uninstall"
+  }
+}
